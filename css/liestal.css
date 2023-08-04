@@ -1,0 +1,15 @@
+.liestal-img-container {
+    width: 700px;
+    height: 100%;
+    padding: var(--space-16) 0;
+    border-radius: 10px;
+    font-size: var(--font-size-14);
+    background-image: url('/assets/liestal.png');
+
+}
+
+.liestal-img-container__logo {
+    width: 100%;
+    padding: var(--space-40) 0 0 var(--space-40);
+    margin-bottom: var(--space-128);
+}
