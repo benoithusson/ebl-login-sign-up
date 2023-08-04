@@ -82,8 +82,38 @@
 .form__social-login {
     border: 1px solid var(--accent-color);
     background-color: var(--bg-color);
-    padding: var(--space-16) var(--space-8);
     border-radius: var(--border-radius-input);
-    display: flex;
+}
+
+.form__social-login {
+    padding: var(--space-16) var(--space-8);
+    position: relative;
+}
+
+.form__social-login:hover {
+    cursor: pointer;
+    border: 1px solid var(--accent-color-hover);
+}
+
+.form__social-login p {
+    margin: 0;
+}
+
+.social-login__logo {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    /* https://stackoverflow.com/questions/28455100/how-to-center-div-vertically-inside-of-absolutely-positioned-parent-div */
+}
+
+.social-login__label img {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.social-login__label {
+    /* display: flex;
     align-items: center;
+    justify-content: center; */
 }
